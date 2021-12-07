@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         final int NUM_UPPER_LETTERS = 1;
-        final int NUM_LOWER_LETTERS = 6;
+        final int NUM_LOWER_LETTERS = 8;
         final int NUM_DIGITS = 1;
         int upperCount = 0;
         int lowerCount = 0; 
