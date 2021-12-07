@@ -27,7 +27,7 @@ public class Main {
             if (upperCount >= NUM_UPPER_LETTERS && lowerCount>= NUM_LOWER_LETTERS && digitCount>= NUM_DIGITS)
                System.out.println("The password is valid");
                 else{
-                    System.out.println("Goddammit. I didnt break my stupid neck for u to be this dumb. The password is invalid. The password must contain at least one capital letter and one digit and an underscore. It should be at least eight digits.");
+                    System.out.println("The password is invalid. The password must contain at least one capital letter and one digit and an underscore. It should be at least eight digits.");
                 }
         }   
     }
