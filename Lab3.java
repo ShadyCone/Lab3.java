@@ -11,7 +11,7 @@ public class Main {
         int digitCount = 0;
         int letterCount =0;
         Scanner in = new Scanner(System.in);
-        System.out.println("Please enter a new password. Your password must contain at least one capital letter, one small letter, one digtit and an underscore. It should be of 8 characters: ");
+        System.out.println("Please enter a new password. Your password must contain one capital letter, one small letter, one digtit and an underscore. It should be at least of 8 characters : ");
         String input = in.nextLine();
         int inputLength = input.length();
         
@@ -27,7 +27,7 @@ public class Main {
             if (upperCount >= NUM_UPPER_LETTERS && lowerCount>= NUM_LOWER_LETTERS && digitCount>= NUM_DIGITS)
                System.out.println("The password is valid");
                 else{
-                    System.out.println("The password is invalid. The password must contain at least one capital letter and one small letter and one digit. It should be of 8 characters.");
+                    System.out.println("The password is invalid. The password must contain one capital letter and one small letter and one digit. It should be at least of 8 characters.");
                 }
         }   
     }
